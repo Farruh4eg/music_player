@@ -23,7 +23,7 @@ var (
 func main() {
 	log.Println("Application starting...")
 	a := app.New()
-	w := a.NewWindow("MusicPlayer")
+	w := a.NewWindow("Music Player")
 	w.Resize(fyne.NewSize(1280, 720))
 	playbackValueBinding := binding.NewFloat()
 
